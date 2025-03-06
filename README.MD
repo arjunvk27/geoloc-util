@@ -20,3 +20,9 @@ This command-line utility uses the Open Weather Geocoding API to retrieve geogra
    ```bash
    git clone https://github.com/yourusername/geoloc-util.git
    cd geoloc-util
+
+2. **Running Tests:** 
+Integration tests can be run locally (using JUnit 5) and the results will be reported in your terminal.
+To run the integration tests locally, use Maven. From the project root directory (where pom.xml is located), execute the following command:
+ ```bash
+mvn test
